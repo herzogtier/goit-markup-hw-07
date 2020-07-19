@@ -5,8 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet" />
         <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet" />
-        <link rel="stylesheet" href="./css/normalize.css" />
-        <link rel="stylesheet" href="./css/styles.css" />
+        <link rel="stylesheet" href="./css/main.min.css" />
 
         <title>HomeWork 05</title>
     </head>
@@ -16,12 +15,12 @@
         <header>
             <div class="container header-flex-container">
                 <!--Навигация сайта-->
-                <nav class="nav-flex-container nav-logo">
+                <nav class="nav-flex-container">
                     <a href="./index.html" class="logo">
                         <span class="logo-primary">Web</span>
                         <span>Studio</span>
                     </a>
-                    <ul class="list header-link-list nav-link">
+                    <ul class="list header-link-list">
                         <li class="header-link-item">
                             <a class="current link-header-text" href="./index.html">
                                 Студия
@@ -132,9 +131,6 @@
                         <button class="link-button" type="submit" data-close-modal>Отправить</button>
                     </form>
                 </div>
-                <!-- <svg class="modal-svg-closewindow" width="11px" height="11px">
-                    <use href="./sprite.svg#icon-closewindow"></use>
-                </svg> -->
             </div>
 
             <!--Перечисление преимущетв-->
@@ -436,7 +432,7 @@
                         <span class="logo-primary">Web</span>
                         <span>Studio</span>
                     </a>
-                    <address class="footer-address-text footer-contacts-text">
+                    <address>
                         <p class="footer-text-paragraph">г. Киев, пр-т Леси Украинки, 26</p>
                         <a class="footer-link-address" href="mailto:info@devstudio.com">info@devstudio.com</a>
                         <a class="footer-link-address" href="tel:+380961111111">+38 096 111 11 11</a>
@@ -479,7 +475,7 @@
 
                 <div class="footer-subscribe">
                     <h3 class="footer-header-subscribe">Подпишитесь на рассылку</h3>
-                    <div class="subscribe-wrapper">
+                    <div>
                         <form class="footer-subscribe-form">
                             <input class="footer-subscribe-input" type="email" name="email" placeholder="E-mail" />
                             <button class="footer-link-button" type="submit">
@@ -491,9 +487,6 @@
                         </form>
                     </div>
                 </div>
-            </div>
-            <div class="container copyright-box">
-                <p class="footer-copyright">2020 | Developed by GoIT Students</p>
             </div>
         </footer>
 
